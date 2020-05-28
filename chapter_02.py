@@ -13,7 +13,7 @@ var = 75
 
 #재선언
 var = "Change Value"
-
+     
 #출력
 print(var)
 print(type(var))
