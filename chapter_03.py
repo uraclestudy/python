@@ -13,7 +13,7 @@ tuple : 튜플(시퀀스)
 set : 집합
 dict : 사전
 """
-
+5w35w5ww535w
 # 데이터 타입
 str1 = "Python"
 bool = True
