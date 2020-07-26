@@ -52,6 +52,7 @@ for n in lotto_numbers:
 print()
 print()
 
+#예제4
 my_info = {
     "name" : "lee",
     "age" : 33,
@@ -60,7 +61,7 @@ my_info = {
 
 for k in my_info:
     print('key :', my_info.get(k))
-
+    print('key :', my_info[k])
 for v in my_info.values():
     print(v)
 
@@ -83,3 +84,39 @@ for num in numbers:
         break
     else:
         print('not found')
+
+# continue
+
+lt = ["1", 2, 5, True, 4.3, complex(4)]
+
+for v in lt:
+    if type(v) is bool:
+        continue
+    print("current type :",v, type(v))
+
+
+#for -else
+
+for num in numbers:
+    if num == 24:
+        print("Found : 24")
+        break
+else:
+    print("Not Found : 24")
+
+
+#구구단 출력
+
+for i in range(2, 10):
+    for j in range(1, 10):
+        print('{:4d}'.format(i*j), end='')
+    print()
+
+#변환 예제
+
+name2 ='Aceman'
+
+print('Reversed', reversed(name2))
+print('List', list(reversed(name2)))
+print('Tuple', tuple(reversed(name2)))
+print('Set', set(reversed(name2))) #순서 X
